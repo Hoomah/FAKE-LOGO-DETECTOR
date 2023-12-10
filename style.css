@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login -Fake Currency Detection</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        /* Custom styles go here */
+     
+        body {
+            background-image: url("images/market.jpg");
+        }
+   
+
+        .login-container {
+            background-color: #3a4909; /* Olive Green */
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(15, 75, 35, 0.5);
+        }
+
+        .login-form {
+            color: rgb(10, 10, 10); /* Peach */
+        }
+    </style>
+</head>
+
+<body class="font-sans">
+
+    <!-- Login Form Section -->
+    <section class="min-h-screen flex items-center justify-center">
+        <div class="login-container p-8 max-w-md">
+            <h2 class="text-3xl font-bold mb-4">Login</h2>
+            <!-- Add your login form here -->
+            <form class="login-form">
+                <div class="mb-4">
+                    <label for="username" class="block text-sm font-semibold mb-2" > Username:</label>
+                    <input type="text" id="username" name="username" class="px-4 py-2 border rounded-md w-full">
+                </div>
+
+                <div class="mb-6">
+                    <label for="password" class="block text-sm font-semibold mb-2">Password:</label>
+                    <input type="password" id="password" name="password" class="px-4 py-2 border rounded-md w-full">
+                </div>
+
+                <button type="submit" class="bg-peach text-black font-semibold px-6 py-3 rounded-full">Login</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
